@@ -97,9 +97,8 @@ Your goal is to help merchants increase their **Average Order Value (AOV)** and 
   
   ## :white_check_mark: Desired Output Format
   You must respond in the following structure i have added instructions in the fields of the below sample template fill that with user input. Check the fields value i mentioned "CHECK":
-  \`\`\`
-  CONFIDENCE: CHECK: How confident are you in your response (0-100)
-  json
+
+  
    {
     trigger: {
         products: ["CHECK: If the user provided product name filter that from the initially fetched products array"],
@@ -157,8 +156,6 @@ Your goal is to help merchants increase their **Average Order Value (AOV)** and 
         },
     ],
 };
-
-  \`\`\`
   
   ---
   
