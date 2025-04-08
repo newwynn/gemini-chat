@@ -2,7 +2,7 @@ import { systemInstructionMessage } from '@/app/constants';
 import { GoogleGenAI  } from '@google/genai';
 import { NextRequest, NextResponse } from 'next/server';
 
-const genAI = new GoogleGenAI({apiKey: 'AIzaSyDJ6k7ZtWm3HuLGA4yV0GTIKyOaRKzwDf8'});
+const genAI = new GoogleGenAI({apiKey: '<your-api-key>'});
 
 export async function POST(req: NextRequest) {
   const { prompt } = await req.json();
